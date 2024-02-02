@@ -1,0 +1,10 @@
+My approach for creating a black square was using the same command we used to change the line red, this time using the RGB code for black (0, 0, 0).
+  The terminal command for this is: ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 0, g: 0, b: 0, 'width': 3, 'off': 0}"
+After changing the line color to black, I used the same command we used to move the turtle using linear and angular coordinates.
+  The terminal commands I used for this: 
+      ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+      ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: 2.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+      ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: -2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+      ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0, y: -2.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+Another way I had tried to create a black square was using the keyboard keys and arrow keys. However, this did not create a perfect square like the above
+terminal commands did.
