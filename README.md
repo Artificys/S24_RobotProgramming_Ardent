@@ -2,4 +2,4 @@
 
 Team Members:
 
-Alyssa Wu | Qiushi Wang | Sanghyun Kim | Thomas Byrne | Xiang Hu | Scott Wofford
+Alyssa Wu | Sanghyun Kim | Thomas Byrne | Scott Wofford
