@@ -1,0 +1,6 @@
+msg/ArucoLocation.idl
+msg/ArucoLocation.msg
+srv/RobotCommand.idl
+srv/RobotCommand.srv
+srv/RobotCommand_Request.msg
+srv/RobotCommand_Response.msg

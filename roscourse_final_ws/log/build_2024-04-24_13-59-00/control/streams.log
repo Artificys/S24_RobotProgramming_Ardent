@@ -1,0 +1,20 @@
+[1.049s] Invoking command in '/home/scott/roscourse_final_ws/src/control': PYTHONPATH=/home/scott/roscourse_final_ws/build/control/prefix_override:/home/scott/roscourse_final_ws/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/scott/roscourse_final_ws/build/control/build install --record /home/scott/roscourse_final_ws/build/control/install.log --install-scripts $base/lib/core --single-version-externally-managed
+[1.329s] running egg_info
+[1.329s] writing ../../build/control/control.egg-info/PKG-INFO
+[1.329s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[1.330s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[1.330s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[1.330s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[1.373s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.374s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.375s] running build
+[1.375s] running build_py
+[1.375s] running install
+[1.375s] running install_lib
+[1.377s] running install_data
+[1.377s] running install_egg_info
+[1.379s] removing '/home/scott/roscourse_final_ws/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info' (and everything under it)
+[1.380s] Copying ../../build/control/control.egg-info to /home/scott/roscourse_final_ws/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info
+[1.381s] running install_scripts
+[1.401s] writing list of installed files to '/home/scott/roscourse_final_ws/build/control/install.log'
+[1.434s] Invoked command in '/home/scott/roscourse_final_ws/src/control' returned '0': PYTHONPATH=/home/scott/roscourse_final_ws/build/control/prefix_override:/home/scott/roscourse_final_ws/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control build --build-base /home/scott/roscourse_final_ws/build/control/build install --record /home/scott/roscourse_final_ws/build/control/install.log --install-scripts $base/lib/core --single-version-externally-managed

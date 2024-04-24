@@ -1,0 +1,1 @@
+Invoking command in '/home/scott/roscourse_final_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/scott/roscourse_final_ws/src/aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/scott/roscourse_final_ws/install/aruco_interfaces

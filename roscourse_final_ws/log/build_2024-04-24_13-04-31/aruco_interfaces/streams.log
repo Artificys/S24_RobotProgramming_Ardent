@@ -1,0 +1,214 @@
+[0.043s] Invoking command in '/home/scott/roscourse_final_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/scott/roscourse_final_ws/build/aruco_interfaces -- -j12 -l12
+[0.114s] [35m[1mScanning dependencies of target aruco_interfaces__cpp[0m
+[0.115s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.136s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.545s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_generator_c[0m
+[0.559s] [  5%] Built target aruco_interfaces__cpp
+[0.569s] [  7%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/robot_command__functions.c.o[0m
+[0.570s] [ 10%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_location__functions.c.o[0m
+[0.575s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.578s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.581s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.662s] [ 20%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so[0m
+[0.734s] [ 20%] Built target aruco_interfaces__rosidl_generator_c
+[0.750s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.754s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.930s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_cpp[0m
+[0.956s] [ 28%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_location__type_support.cpp.o[0m
+[0.957s] [ 30%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/robot_command__type_support.cpp.o[0m
+[0.963s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.982s] [ 33%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_location__type_support.cpp.o[0m
+[0.986s] [ 35%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/robot_command__type_support.cpp.o[0m
+[1.019s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.053s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_location__type_support.cpp.o[0m
+[1.053s] [ 41%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/robot_command__type_support.cpp.o[0m
+[1.108s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_c[0m
+[1.132s] [ 43%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_location__type_support.cpp.o[0m
+[1.133s] [ 46%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/robot_command__type_support.cpp.o[0m
+[1.151s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c[0m
+[1.175s] [ 48%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o[0m
+[1.176s] [ 51%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o[0m
+[1.192s] [ 53%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so[0m
+[1.242s] [ 56%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.257s] [ 56%] Built target aruco_interfaces__rosidl_typesupport_c
+[1.296s] [ 56%] Built target aruco_interfaces__rosidl_typesupport_introspection_c
+[1.410s] [ 58%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so[0m
+[1.476s] [ 58%] Built target aruco_interfaces__rosidl_typesupport_cpp
+[1.534s] [ 61%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.643s] [ 61%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp
+[1.766s] [ 64%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.904s] [ 64%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.921s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.267s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.296s] [ 71%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_location__type_support_c.cpp.o[0m
+[2.296s] [ 71%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/robot_command__type_support_c.cpp.o[0m
+[2.747s] [ 74%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.885s] [ 74%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c
+[2.901s] [35m[1mScanning dependencies of target aruco_interfaces[0m
+[2.918s] [ 74%] Built target aruco_interfaces
+[2.935s] [35m[1mScanning dependencies of target aruco_interfaces__py[0m
+[2.949s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.590s] [ 76%] Built target aruco_interfaces__py
+[3.607s] [35m[1mScanning dependencies of target aruco_interfaces__python[0m
+[3.636s] [ 79%] [32mBuilding C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o[0m
+[3.640s] [ 82%] [32mBuilding C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o[0m
+[3.763s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so[0m
+[3.824s] [ 84%] Built target aruco_interfaces__python
+[3.840s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext[0m
+[3.841s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.842s] [35m[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.867s] [ 87%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.871s] [ 89%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.873s] [ 92%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.988s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.990s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.001s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.045s] [100%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.047s] [100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext
+[4.099s] [100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.117s] Invoked command in '/home/scott/roscourse_final_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/scott/roscourse_final_ws/build/aruco_interfaces -- -j12 -l12
+[4.209s] Invoking command in '/home/scott/roscourse_final_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/scott/roscourse_final_ws/build/aruco_interfaces
+[4.224s] -- Install configuration: ""
+[4.224s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces
+[4.224s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[4.225s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[4.225s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/aruco_location.h
+[4.225s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.225s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[4.226s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__struct.h
+[4.226s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.h
+[4.226s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__functions.c
+[4.226s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__functions.h
+[4.226s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[4.226s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/robot_command.h
+[4.227s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[4.227s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__functions.c
+[4.227s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.h
+[4.227s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__struct.h
+[4.227s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__functions.h
+[4.227s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh
+[4.228s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv
+[4.228s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so
+[4.228s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""
+[4.228s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[4.228s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[4.228s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.228s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[4.229s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_fastrtps_c.h
+[4.229s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[4.229s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[4.229s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[4.229s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.229s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.229s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[4.230s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[4.230s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.230s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[4.230s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_fastrtps_cpp.hpp
+[4.230s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/dds_fastrtps
+[4.230s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[4.230s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[4.231s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.231s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/dds_fastrtps
+[4.231s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.231s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.231s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[4.231s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[4.231s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.232s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[4.232s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_c.h
+[4.232s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.c
+[4.232s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[4.232s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[4.232s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.c
+[4.232s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
+[4.233s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so
+[4.233s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.233s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so
+[4.233s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""
+[4.233s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[4.233s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[4.233s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/aruco_location.hpp
+[4.234s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[4.234s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__builder.hpp
+[4.234s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__traits.hpp
+[4.234s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__struct.hpp
+[4.234s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[4.234s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/robot_command.hpp
+[4.234s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[4.234s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__builder.hpp
+[4.235s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__traits.hpp
+[4.235s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__struct.hpp
+[4.235s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[4.235s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[4.235s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[4.235s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.cpp
+[4.235s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_cpp.hpp
+[4.235s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[4.236s] -- Up-to-date: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[4.236s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.cpp
+[4.236s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[4.236s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.236s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.236s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so
+[4.236s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.236s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh
+[4.237s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv
+[4.237s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/__init__.py
+[4.274s] Compiling '/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/__init__.py'...
+[4.279s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv
+[4.279s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/__init__.py
+[4.279s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/_robot_command_s.c
+[4.279s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/_robot_command.py
+[4.280s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg
+[4.280s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/_aruco_location.py
+[4.280s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/__init__.py
+[4.280s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/_aruco_location_s.c
+[4.281s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.282s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.282s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.284s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.284s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.285s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.285s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__python.so
+[4.286s] -- Set runtime path of "/home/scott/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__python.so" to ""
+[4.286s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand.idl
+[4.286s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoLocation.idl
+[4.286s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand.srv
+[4.287s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand_Request.msg
+[4.287s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand_Response.msg
+[4.287s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoLocation.msg
+[4.288s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces
+[4.288s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces
+[4.288s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh
+[4.288s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv
+[4.288s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh
+[4.289s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv
+[4.289s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash
+[4.289s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh
+[4.289s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh
+[4.289s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv
+[4.290s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv
+[4.290s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces
+[4.290s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cExport.cmake
+[4.290s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.291s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.291s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.291s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake
+[4.292s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.292s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cppExport.cmake
+[4.292s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.293s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.293s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[4.293s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.293s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.294s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.294s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.294s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.294s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.294s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.295s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.295s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake
+[4.295s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake
+[4.295s] -- Installing: /home/scott/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml
+[4.298s] Invoked command in '/home/scott/roscourse_final_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/scott/roscourse_final_ws/build/aruco_interfaces

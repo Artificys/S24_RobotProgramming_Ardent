@@ -1,0 +1,7 @@
+[console_scripts]
+aruco_publisher = aruco_tracker.aruco_publisher:main
+control_server = aruco_tracker.control_server:main
+core_node = aruco_tracker.core_node:main
+webcam_pub = aruco_tracker.cam_pub:main
+webcam_sub = aruco_tracker.cam_sub:main
+
