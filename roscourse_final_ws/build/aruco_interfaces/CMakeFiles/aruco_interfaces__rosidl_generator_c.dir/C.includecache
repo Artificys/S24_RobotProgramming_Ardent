@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_location__functions.c
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_location__functions.c
 aruco_interfaces/msg/detail/aruco_location__functions.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_interfaces/msg/detail/aruco_location__functions.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_interfaces/msg/detail/aruco_location__functions.h
 assert.h
 -
 stdbool.h
@@ -18,13 +18,13 @@ stdlib.h
 string.h
 -
 rcutils/allocator.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/rcutils/allocator.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/rcutils/allocator.h
 geometry_msgs/msg/detail/pose__functions.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/geometry_msgs/msg/detail/pose__functions.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/msg/detail/geometry_msgs/msg/detail/pose__functions.h
 
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/robot_command__functions.c
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/robot_command__functions.c
 aruco_interfaces/srv/detail/robot_command__functions.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_interfaces/srv/detail/robot_command__functions.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/aruco_interfaces/srv/detail/robot_command__functions.h
 assert.h
 -
 stdbool.h
@@ -34,9 +34,9 @@ stdlib.h
 string.h
 -
 rcutils/allocator.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/rcutils/allocator.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/rcutils/allocator.h
 geometry_msgs/msg/detail/pose2_d__functions.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/geometry_msgs/msg/detail/pose2_d__functions.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_c/aruco_interfaces/srv/detail/geometry_msgs/msg/detail/pose2_d__functions.h
 
 /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
 stdbool.h

@@ -1,0 +1,28 @@
+[0.660s] Invoking command in '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_tracker': PYTHONPATH=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/prefix_override:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_tracker build --build-base /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build install --record /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log --install-scripts $base/lib/aruco_tracker --single-version-externally-managed
+[0.832s] running egg_info
+[0.832s] writing ../../build/aruco_tracker/aruco_tracker.egg-info/PKG-INFO
+[0.832s] writing dependency_links to ../../build/aruco_tracker/aruco_tracker.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/aruco_tracker/aruco_tracker.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../build/aruco_tracker/aruco_tracker.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/aruco_tracker/aruco_tracker.egg-info/top_level.txt
+[0.871s] reading manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+[0.872s] writing manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+[0.872s] running build
+[0.872s] running build_py
+[0.872s] copying aruco_tracker/core_node.py -> /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+[0.872s] running install
+[0.873s] running install_lib
+[0.874s] copying /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/core_node.py -> /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+[0.874s] byte-compiling /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/core_node.py to core_node.cpython-38.pyc
+[0.875s] running install_data
+[0.876s] running install_egg_info
+[0.878s] removing '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker-0.0.0-py3.8.egg-info' (and everything under it)
+[0.878s] Copying ../../build/aruco_tracker/aruco_tracker.egg-info to /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker-0.0.0-py3.8.egg-info
+[0.878s] running install_scripts
+[0.891s] Installing aruco_publisher script to /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[0.892s] Installing control_server script to /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[0.892s] Installing core_node script to /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[0.892s] Installing webcam_pub script to /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[0.892s] Installing webcam_sub script to /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[0.892s] writing list of installed files to '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log'
+[0.921s] Invoked command in '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_tracker' returned '0': PYTHONPATH=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/prefix_override:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_tracker build --build-base /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build install --record /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log --install-scripts $base/lib/aruco_tracker --single-version-externally-managed

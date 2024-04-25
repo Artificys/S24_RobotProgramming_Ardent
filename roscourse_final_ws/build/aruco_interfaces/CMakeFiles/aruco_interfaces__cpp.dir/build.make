@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Utility rule file for aruco_interfaces__cpp.
 
@@ -141,8 +141,8 @@ rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scott/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__builder.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__builder.hpp
@@ -188,6 +188,6 @@ CMakeFiles/aruco_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces__cpp.dir/clean
 
 CMakeFiles/aruco_interfaces__cpp.dir/depend:
-	cd /home/scott/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/roscourse_final_ws/src/aruco_interfaces /home/scott/roscourse_final_ws/src/aruco_interfaces /home/scott/roscourse_final_ws/build/aruco_interfaces /home/scott/roscourse_final_ws/build/aruco_interfaces /home/scott/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__cpp.dir/depend
 

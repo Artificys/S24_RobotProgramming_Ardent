@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"aruco_interfaces\" -Daruco_interfaces__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_cpp -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_cpp -isystem /opt/ros/foxy/include 
 

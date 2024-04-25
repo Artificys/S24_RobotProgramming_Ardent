@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Utility rule file for aruco_interfaces_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/scott/roscourse_final_ws/build/aruco_interfaces
 include CMakeFiles/aruco_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/aruco_interfaces_uninstall:
-	/usr/bin/cmake -P /home/scott/roscourse_final_ws/build/aruco_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 aruco_interfaces_uninstall: CMakeFiles/aruco_interfaces_uninstall
 aruco_interfaces_uninstall: CMakeFiles/aruco_interfaces_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/aruco_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces_uninstall.dir/clean
 
 CMakeFiles/aruco_interfaces_uninstall.dir/depend:
-	cd /home/scott/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/roscourse_final_ws/src/aruco_interfaces /home/scott/roscourse_final_ws/src/aruco_interfaces /home/scott/roscourse_final_ws/build/aruco_interfaces /home/scott/roscourse_final_ws/build/aruco_interfaces /home/scott/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces_uninstall.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
 Python.h
 -
 stdbool.h
@@ -14,25 +14,25 @@ stdbool.h
 stdint.h
 -
 rosidl_runtime_c/visibility_control.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/visibility_control.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/visibility_control.h
 rosidl_runtime_c/message_type_support_struct.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/message_type_support_struct.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/service_type_support_struct.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/action_type_support_struct.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/action_type_support_struct.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/rosidl_runtime_c/action_type_support_struct.h
 aruco_interfaces/msg/detail/aruco_location__type_support.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/msg/detail/aruco_location__type_support.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/msg/detail/aruco_location__type_support.h
 aruco_interfaces/msg/detail/aruco_location__struct.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/msg/detail/aruco_location__struct.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/msg/detail/aruco_location__struct.h
 aruco_interfaces/msg/detail/aruco_location__functions.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/msg/detail/aruco_location__functions.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/msg/detail/aruco_location__functions.h
 aruco_interfaces/srv/detail/robot_command__type_support.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/srv/detail/robot_command__type_support.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/srv/detail/robot_command__type_support.h
 aruco_interfaces/srv/detail/robot_command__struct.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/srv/detail/robot_command__struct.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/srv/detail/robot_command__struct.h
 aruco_interfaces/srv/detail/robot_command__functions.h
-/home/scott/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/srv/detail/robot_command__functions.h
+/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces/srv/detail/robot_command__functions.h
 
 /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
 stdbool.h

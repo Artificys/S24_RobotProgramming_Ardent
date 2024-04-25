@@ -1,0 +1,149 @@
+[0.025s] Invoking command in '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces -- -j12 -l12
+[0.089s] [ 10%] Built target aruco_interfaces__rosidl_generator_c
+[0.096s] [ 12%] Built target aruco_interfaces__cpp
+[0.120s] [ 23%] Built target aruco_interfaces__rosidl_typesupport_c
+[0.122s] [ 33%] Built target aruco_interfaces__rosidl_typesupport_introspection_c
+[0.125s] [ 43%] Built target aruco_interfaces__rosidl_typesupport_cpp
+[0.128s] [ 53%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.134s] [ 64%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp
+[0.170s] [ 74%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c
+[0.198s] [ 74%] Built target aruco_interfaces
+[0.231s] [ 76%] Built target aruco_interfaces__py
+[0.277s] [ 84%] Built target aruco_interfaces__python
+[0.309s] [ 89%] Built target aruco_interfaces__rosidl_typesupport_c__pyext
+[0.309s] [ 94%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.312s] [100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.332s] Invoked command in '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces -- -j12 -l12
+[0.425s] Invoking command in '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker:/opt/ros/foxy /usr/bin/cmake --install /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
+[0.439s] -- Install configuration: ""
+[0.439s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces
+[0.440s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[0.440s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[0.440s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/aruco_location.h
+[0.440s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.440s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[0.440s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__struct.h
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.h
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__functions.c
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__functions.h
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/robot_command.h
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[0.441s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__functions.c
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.h
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__struct.h
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__functions.h
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so
+[0.442s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_fastrtps_c.h
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+[0.443s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_fastrtps_cpp.hpp
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/dds_fastrtps
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[0.444s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/dds_fastrtps
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.445s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_c.h
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.c
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.c
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
+[0.446s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/aruco_location.hpp
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__builder.hpp
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__traits.hpp
+[0.447s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__struct.hpp
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/robot_command.hpp
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__builder.hpp
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__traits.hpp
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__struct.hpp
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces
+[0.448s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.cpp
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_cpp.hpp
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.cpp
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv
+[0.449s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/__init__.py
+[0.482s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv
+[0.483s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/__init__.py
+[0.483s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/_robot_command_s.c
+[0.483s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/_robot_command.py
+[0.483s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg
+[0.483s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/_aruco_location.py
+[0.483s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/__init__.py
+[0.484s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/_aruco_location_s.c
+[0.484s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.484s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.484s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.485s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__python.so
+[0.485s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand.idl
+[0.485s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoLocation.idl
+[0.485s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand.srv
+[0.485s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand_Request.msg
+[0.485s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand_Response.msg
+[0.486s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoLocation.msg
+[0.486s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces
+[0.486s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces
+[0.486s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh
+[0.486s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv
+[0.487s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh
+[0.487s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv
+[0.487s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash
+[0.487s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh
+[0.487s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh
+[0.487s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv
+[0.488s] -- Installing: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv
+[0.488s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces
+[0.488s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cExport.cmake
+[0.488s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.488s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.488s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cppExport.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[0.489s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.490s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.490s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.490s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.490s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.491s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.491s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.491s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.491s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake
+[0.491s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake
+[0.492s] -- Up-to-date: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml
+[0.493s] Invoked command in '/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker:/opt/ros/foxy /usr/bin/cmake --install /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
