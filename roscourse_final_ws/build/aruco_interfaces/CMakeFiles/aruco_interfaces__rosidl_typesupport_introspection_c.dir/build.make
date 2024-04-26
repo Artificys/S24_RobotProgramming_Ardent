@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/depend.make
@@ -128,8 +128,8 @@ rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__ro
 rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_c.h
@@ -142,29 +142,29 @@ rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__t
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o: rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o   -c /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o   -c /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c > CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c > CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.i
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.s
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o: rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o   -c /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o   -c /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c > CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c > CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.i
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.s
 
 # Object files for target aruco_interfaces__rosidl_typesupport_introspection_c
 aruco_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
@@ -201,7 +201,7 @@ libaruco_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/li
 libaruco_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libaruco_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librcutils.so
 libaruco_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosi
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_c.h
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c
-	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/aruco_interfaces__py
+# Install script for directory: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/aruco_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

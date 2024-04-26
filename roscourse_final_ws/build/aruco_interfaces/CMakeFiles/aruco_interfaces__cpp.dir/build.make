@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Utility rule file for aruco_interfaces__cpp.
 
@@ -57,10 +57,13 @@ CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/robo
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__builder.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__struct.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__traits.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__type_support.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/aruco_location.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__builder.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__struct.hpp
 CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__traits.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__type_support.hpp
+CMakeFiles/aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -68,16 +71,20 @@ rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/lib/p
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: rosidl_adapter/aruco_interfaces/srv/RobotCommand.idl
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: rosidl_adapter/aruco_interfaces/msg/ArucoLocation.idl
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
@@ -141,8 +148,8 @@ rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__builder.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__builder.hpp
@@ -152,6 +159,9 @@ rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__struct.hpp: rosi
 
 rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__traits.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__traits.hpp
+
+rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__type_support.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__type_support.hpp
 
 rosidl_generator_cpp/aruco_interfaces/msg/aruco_location.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/aruco_location.hpp
@@ -165,15 +175,20 @@ rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__struct.hpp: ros
 rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__traits.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__traits.hpp
 
+rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__type_support.hpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__type_support.hpp
+
 aruco_interfaces__cpp: CMakeFiles/aruco_interfaces__cpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/robot_command.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__builder.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__struct.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__traits.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/srv/detail/robot_command__type_support.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/aruco_location.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__builder.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__struct.hpp
 aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__traits.hpp
+aruco_interfaces__cpp: rosidl_generator_cpp/aruco_interfaces/msg/detail/aruco_location__type_support.hpp
 aruco_interfaces__cpp: CMakeFiles/aruco_interfaces__cpp.dir/build.make
 
 .PHONY : aruco_interfaces__cpp
@@ -188,6 +203,6 @@ CMakeFiles/aruco_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces__cpp.dir/clean
 
 CMakeFiles/aruco_interfaces__cpp.dir/depend:
-	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__cpp.dir/depend
 

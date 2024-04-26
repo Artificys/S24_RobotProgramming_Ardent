@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.d
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/flags.make
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o: rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o   -c /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o   -c /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 
 # Object files for target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
 aruco_interfaces__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
@@ -77,46 +77,46 @@ aruco_interfaces__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
 # External object files for target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
 aruco_interfaces__rosidl_typesupport_introspection_c__pyext_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: libaruco_interfaces__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: libaruco_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librmw.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: libaruco_interfaces__rosidl_generator_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librcpputils.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librcutils.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so"
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: libaruco_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: libaruco_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librmw.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: libaruco_interfaces__rosidl_generator_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librcpputils.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librcutils.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
+rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so: CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build: rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build: rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
 
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build
 
@@ -125,6 +125,6 @@ CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clean
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clean
 
 CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend:
-	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend
 

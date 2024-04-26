@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aruco_interfaces__python.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/aruco_interfaces__python.dir/flags.make
 
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o: CMakeFiles/aruco_interfaces__python.dir/flags.make
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o: rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o   -c /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o   -c /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c
 
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c > CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c > CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.i
 
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.s
 
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o: CMakeFiles/aruco_interfaces__python.dir/flags.make
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o: rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o   -c /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o   -c /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c
 
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c > CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c > CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.i
 
 CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c -o CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.s
 
 # Object files for target aruco_interfaces__python
 aruco_interfaces__python_OBJECTS = \
@@ -95,7 +95,7 @@ rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: CMakeFiles/
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: CMakeFiles/aruco_interfaces__python.dir/build.make
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: libaruco_interfaces__rosidl_generator_c.so
-rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: libaruco_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so
@@ -123,7 +123,7 @@ rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /opt/ros/fo
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so: CMakeFiles/aruco_interfaces__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_interfaces__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/aruco_interfaces__python.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces__python.dir/clean
 
 CMakeFiles/aruco_interfaces__python.dir/depend:
-	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces__python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces__python.dir/depend
 

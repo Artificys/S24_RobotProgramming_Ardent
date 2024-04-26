@@ -96,10 +96,10 @@ class ArucoPublisher(Node):
             self.get_logger().info('Warning: No image detected')
             msg.aruco_found = False
         else:                                      
-            markerSize = 0.050
+            markerSize = 0.080
                                       
-            arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_1000)
-            arucoParams = cv2.aruco.DetectorParameters_create()
+            arucoDict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_1000)
+            arucoParams = cv2.aruco.DetectorParameters()
             
             (corners, IDs, rejected) = cv2.aruco.detectMarkers(self.frame, arucoDict, parameters=arucoParams)
             

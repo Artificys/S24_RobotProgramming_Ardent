@@ -1,0 +1,28 @@
+[3.763s] Invoking command in '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_tracker': AMENT_PREFIX_PATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/prefix_override:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_tracker build --build-base /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build install --record /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log --install-scripts $base/lib/aruco_tracker --single-version-externally-managed install_data
+[4.964s] running egg_info
+[4.967s] writing ../../build/aruco_tracker/aruco_tracker.egg-info/PKG-INFO
+[4.968s] writing dependency_links to ../../build/aruco_tracker/aruco_tracker.egg-info/dependency_links.txt
+[4.969s] writing entry points to ../../build/aruco_tracker/aruco_tracker.egg-info/entry_points.txt
+[4.970s] writing requirements to ../../build/aruco_tracker/aruco_tracker.egg-info/requires.txt
+[4.970s] writing top-level names to ../../build/aruco_tracker/aruco_tracker.egg-info/top_level.txt
+[5.135s] reading manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+[5.140s] writing manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+[5.140s] running build
+[5.141s] running build_py
+[5.141s] copying aruco_tracker/control_server.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+[5.144s] running install
+[5.148s] running install_lib
+[5.153s] copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/control_server.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+[5.157s] byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/control_server.py to control_server.cpython-38.pyc
+[5.164s] running install_data
+[5.165s] running install_egg_info
+[5.172s] removing '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker-0.0.0-py3.8.egg-info' (and everything under it)
+[5.173s] Copying ../../build/aruco_tracker/aruco_tracker.egg-info to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker-0.0.0-py3.8.egg-info
+[5.177s] running install_scripts
+[5.253s] Installing aruco_publisher script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[5.254s] Installing control_server script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[5.254s] Installing core_node script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[5.255s] Installing webcam_pub script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[5.255s] Installing webcam_sub script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+[5.256s] writing list of installed files to '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log'
+[5.360s] Invoked command in '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_tracker' returned '0': AMENT_PREFIX_PATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/prefix_override:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_tracker build --build-base /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build install --record /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log --install-scripts $base/lib/aruco_tracker --single-version-externally-managed install_data

@@ -1,10 +1,10 @@
 {
   "package_name": "aruco_interfaces",
-  "output_dir": "/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_c/aruco_interfaces",
+  "output_dir": "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_typesupport_c/aruco_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/RobotCommand.idl",
-    "/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoLocation.idl"
+    "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/RobotCommand.idl",
+    "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoLocation.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
@@ -76,8 +76,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/srv/RobotCommand.idl",
-    "/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/msg/ArucoLocation.idl",
+    "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/srv/RobotCommand.idl",
+    "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces/msg/ArucoLocation.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl",

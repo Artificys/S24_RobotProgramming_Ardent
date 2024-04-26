@@ -1,0 +1,718 @@
+[0.000000] (-) TimerEvent: {}
+[0.003381] (aruco_interfaces) JobQueued: {'identifier': 'aruco_interfaces', 'dependencies': OrderedDict()}
+[0.003818] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.004053] (aruco_tracker) JobQueued: {'identifier': 'aruco_tracker', 'dependencies': OrderedDict([('aruco_interfaces', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces')])}
+[0.004242] (aruco_interfaces) JobStarted: {'identifier': 'aruco_interfaces'}
+[0.060063] (control) JobStarted: {'identifier': 'control'}
+[0.099211] (-) TimerEvent: {}
+[0.108521] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'cmake'}
+[0.109963] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces', '-DCMAKE_INSTALL_PREFIX=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces'], 'cwd': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces', 'env': OrderedDict([('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'jetson-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('ROBOT_TYPE', 'x3'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy')]), 'shell': False}
+[0.199500] (-) TimerEvent: {}
+[0.300764] (-) TimerEvent: {}
+[0.384034] (aruco_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.400913] (-) TimerEvent: {}
+[0.501578] (-) TimerEvent: {}
+[0.602284] (-) TimerEvent: {}
+[0.639666] (aruco_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.668203] (aruco_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.702447] (-) TimerEvent: {}
+[0.803160] (-) TimerEvent: {}
+[0.904049] (-) TimerEvent: {}
+[0.982074] (aruco_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.985403] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.004204] (-) TimerEvent: {}
+[1.104950] (-) TimerEvent: {}
+[1.205607] (-) TimerEvent: {}
+[1.306270] (-) TimerEvent: {}
+[1.340863] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.389792] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.391101] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.401380] (aruco_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.406406] (-) TimerEvent: {}
+[1.507140] (-) TimerEvent: {}
+[1.607961] (-) TimerEvent: {}
+[1.708830] (-) TimerEvent: {}
+[1.764526] (aruco_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.768887] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.808995] (-) TimerEvent: {}
+[1.909630] (-) TimerEvent: {}
+[2.010264] (-) TimerEvent: {}
+[2.111035] (-) TimerEvent: {}
+[2.130969] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.181877] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.183837] (aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.211185] (-) TimerEvent: {}
+[2.233629] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.311342] (-) TimerEvent: {}
+[2.412046] (-) TimerEvent: {}
+[2.458798] (aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.459590] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.512212] (-) TimerEvent: {}
+[2.612898] (-) TimerEvent: {}
+[2.713526] (-) TimerEvent: {}
+[2.814228] (-) TimerEvent: {}
+[2.915687] (-) TimerEvent: {}
+[3.016385] (-) TimerEvent: {}
+[3.117164] (-) TimerEvent: {}
+[3.220824] (-) TimerEvent: {}
+[3.321448] (-) TimerEvent: {}
+[3.422125] (-) TimerEvent: {}
+[3.522908] (-) TimerEvent: {}
+[3.623616] (-) TimerEvent: {}
+[3.724491] (-) TimerEvent: {}
+[3.807414] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/control', 'build', '--build-base', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build', 'install', '--record', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/install.log', '--install-scripts', '$base/lib/core', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/control', 'env': {'CAMERA_TYPE': 'astraplus', 'HOSTNAME': 'jetson-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', '_colcon_cd_root': '/root/yahboomcar_ros2_ws/yahboomcar_ws', 'ROBOT_TYPE': 'x3', 'COLCON_PREFIX_PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ORB_SLAM2_ROOT_DIR': '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master', 'DISPLAY': ':0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy', 'RPLIDAR_TYPE': 'a1', 'PWD': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control', 'PYTHONPATH': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/prefix_override:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs'}, 'shell': False}
+[3.824740] (-) TimerEvent: {}
+[3.925608] (-) TimerEvent: {}
+[4.026506] (-) TimerEvent: {}
+[4.127136] (-) TimerEvent: {}
+[4.204445] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.227302] (-) TimerEvent: {}
+[4.328051] (-) TimerEvent: {}
+[4.428789] (-) TimerEvent: {}
+[4.529540] (-) TimerEvent: {}
+[4.630157] (-) TimerEvent: {}
+[4.730837] (-) TimerEvent: {}
+[4.831511] (-) TimerEvent: {}
+[4.932178] (-) TimerEvent: {}
+[5.007821] (aruco_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[5.032411] (-) TimerEvent: {}
+[5.103976] (control) StdoutLine: {'line': b'running egg_info\n'}
+[5.106320] (control) StdoutLine: {'line': b'creating ../../build/control/control.egg-info\n'}
+[5.107239] (control) StdoutLine: {'line': b'writing ../../build/control/control.egg-info/PKG-INFO\n'}
+[5.108112] (control) StdoutLine: {'line': b'writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt\n'}
+[5.108634] (control) StdoutLine: {'line': b'writing entry points to ../../build/control/control.egg-info/entry_points.txt\n'}
+[5.109528] (control) StdoutLine: {'line': b'writing requirements to ../../build/control/control.egg-info/requires.txt\n'}
+[5.109929] (control) StdoutLine: {'line': b'writing top-level names to ../../build/control/control.egg-info/top_level.txt\n'}
+[5.115678] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[5.132572] (-) TimerEvent: {}
+[5.233269] (-) TimerEvent: {}
+[5.282852] (control) StdoutLine: {'line': b"reading manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[5.286478] (control) StdoutLine: {'line': b"writing manifest file '../../build/control/control.egg-info/SOURCES.txt'\n"}
+[5.287231] (control) StdoutLine: {'line': b'running build\n'}
+[5.287988] (control) StdoutLine: {'line': b'running build_py\n'}
+[5.288457] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build\n'}
+[5.288994] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib\n'}
+[5.289407] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib/control\n'}
+[5.289759] (control) StdoutLine: {'line': b'copying control/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib/control\n'}
+[5.290091] (control) StdoutLine: {'line': b'running install\n'}
+[5.293365] (control) StdoutLine: {'line': b'running install_lib\n'}
+[5.297484] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control\n'}
+[5.298177] (control) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib/control/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control\n'}
+[5.301027] (control) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control/__init__.py to __init__.cpython-38.pyc\n'}
+[5.306112] (control) StdoutLine: {'line': b'running install_data\n'}
+[5.306872] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share\n'}
+[5.307601] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index\n'}
+[5.308700] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index/resource_index\n'}
+[5.309206] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index/resource_index/packages\n'}
+[5.309633] (control) StdoutLine: {'line': b'copying resource/control -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index/resource_index/packages\n'}
+[5.309988] (control) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control\n'}
+[5.310382] (control) StdoutLine: {'line': b'copying package.xml -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control\n'}
+[5.310755] (control) StdoutLine: {'line': b'copying launch/aruco_tracker.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control\n'}
+[5.311104] (control) StdoutLine: {'line': b'copying launch/simple.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control\n'}
+[5.311456] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.317291] (control) StdoutLine: {'line': b'Copying ../../build/control/control.egg-info to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info\n'}
+[5.321166] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[5.333489] (-) TimerEvent: {}
+[5.400366] (control) StdoutLine: {'line': b"writing list of installed files to '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/install.log'\n"}
+[5.433736] (-) TimerEvent: {}
+[5.503807] (control) CommandEnded: {'returncode': 0}
+[5.529493] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.535232] (-) TimerEvent: {}
+[5.552033] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[5.635462] (-) TimerEvent: {}
+[5.677856] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.735622] (-) TimerEvent: {}
+[5.836283] (-) TimerEvent: {}
+[5.937027] (-) TimerEvent: {}
+[6.037641] (-) TimerEvent: {}
+[6.138282] (-) TimerEvent: {}
+[6.238964] (-) TimerEvent: {}
+[6.339661] (-) TimerEvent: {}
+[6.403881] (aruco_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.439868] (-) TimerEvent: {}
+[6.540544] (-) TimerEvent: {}
+[6.641226] (-) TimerEvent: {}
+[6.655955] (aruco_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.741427] (-) TimerEvent: {}
+[6.842079] (-) TimerEvent: {}
+[6.942694] (-) TimerEvent: {}
+[7.043357] (-) TimerEvent: {}
+[7.144013] (-) TimerEvent: {}
+[7.244640] (-) TimerEvent: {}
+[7.345529] (-) TimerEvent: {}
+[7.409808] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.445685] (-) TimerEvent: {}
+[7.546401] (-) TimerEvent: {}
+[7.647009] (-) TimerEvent: {}
+[7.747720] (-) TimerEvent: {}
+[7.848321] (-) TimerEvent: {}
+[7.926184] (aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[7.948462] (-) TimerEvent: {}
+[8.049150] (-) TimerEvent: {}
+[8.150473] (-) TimerEvent: {}
+[8.166677] (aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[8.250711] (-) TimerEvent: {}
+[8.351554] (-) TimerEvent: {}
+[8.452201] (-) TimerEvent: {}
+[8.552863] (-) TimerEvent: {}
+[8.653532] (-) TimerEvent: {}
+[8.754133] (-) TimerEvent: {}
+[8.842899] (aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.854310] (-) TimerEvent: {}
+[8.954900] (-) TimerEvent: {}
+[9.055873] (-) TimerEvent: {}
+[9.156559] (-) TimerEvent: {}
+[9.257256] (-) TimerEvent: {}
+[9.357877] (-) TimerEvent: {}
+[9.458594] (-) TimerEvent: {}
+[9.559221] (-) TimerEvent: {}
+[9.659866] (-) TimerEvent: {}
+[9.760548] (-) TimerEvent: {}
+[9.861200] (-) TimerEvent: {}
+[9.961869] (-) TimerEvent: {}
+[10.062549] (-) TimerEvent: {}
+[10.163227] (-) TimerEvent: {}
+[10.263932] (-) TimerEvent: {}
+[10.364594] (-) TimerEvent: {}
+[10.465319] (-) TimerEvent: {}
+[10.565952] (-) TimerEvent: {}
+[10.612534] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.666156] (-) TimerEvent: {}
+[10.766800] (-) TimerEvent: {}
+[10.867441] (-) TimerEvent: {}
+[10.968143] (-) TimerEvent: {}
+[11.068841] (-) TimerEvent: {}
+[11.169562] (-) TimerEvent: {}
+[11.217250] (aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.269737] (-) TimerEvent: {}
+[11.370954] (-) TimerEvent: {}
+[11.391053] (aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[11.436203] (aruco_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[11.471170] (-) TimerEvent: {}
+[11.571829] (-) TimerEvent: {}
+[11.595147] (aruco_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[11.595920] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.596354] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[11.596833] (aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[11.672042] (-) TimerEvent: {}
+[11.725467] (aruco_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.772236] (-) TimerEvent: {}
+[11.873005] (-) TimerEvent: {}
+[11.973619] (-) TimerEvent: {}
+[12.074400] (-) TimerEvent: {}
+[12.175138] (-) TimerEvent: {}
+[12.259616] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.270745] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.275318] (-) TimerEvent: {}
+[12.278380] (aruco_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.317512] (aruco_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.375486] (-) TimerEvent: {}
+[12.476163] (-) TimerEvent: {}
+[12.568245] (aruco_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[12.576308] (-) TimerEvent: {}
+[12.581192] (aruco_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces\n'}
+[12.621097] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[12.623074] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'build'}
+[12.626426] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces', '--', '-j4', '-l4'], 'cwd': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces', 'env': OrderedDict([('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'jetson-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('ROBOT_TYPE', 'x3'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy')]), 'shell': False}
+[12.676512] (-) TimerEvent: {}
+[12.777342] (-) TimerEvent: {}
+[12.842178] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__cpp\x1b[0m\n'}
+[12.842824] (aruco_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.877549] (-) TimerEvent: {}
+[12.898562] (aruco_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.977711] (-) TimerEvent: {}
+[13.078374] (-) TimerEvent: {}
+[13.180408] (-) TimerEvent: {}
+[13.281088] (-) TimerEvent: {}
+[13.381734] (-) TimerEvent: {}
+[13.482398] (-) TimerEvent: {}
+[13.583187] (-) TimerEvent: {}
+[13.683885] (-) TimerEvent: {}
+[13.784647] (-) TimerEvent: {}
+[13.885438] (-) TimerEvent: {}
+[13.986665] (-) TimerEvent: {}
+[14.087349] (-) TimerEvent: {}
+[14.188065] (-) TimerEvent: {}
+[14.288810] (-) TimerEvent: {}
+[14.389609] (-) TimerEvent: {}
+[14.491242] (-) TimerEvent: {}
+[14.511860] (aruco_interfaces) StdoutLine: {'line': b'[  5%] Built target aruco_interfaces__cpp\n'}
+[14.587030] (aruco_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.591402] (-) TimerEvent: {}
+[14.613770] (aruco_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.615019] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_generator_c\x1b[0m\n'}
+[14.625463] (aruco_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.691615] (-) TimerEvent: {}
+[14.702366] (aruco_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/srv/detail/robot_command__functions.c.o\x1b[0m\n'}
+[14.791780] (-) TimerEvent: {}
+[14.894103] (-) TimerEvent: {}
+[14.995473] (-) TimerEvent: {}
+[15.049545] (aruco_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_location__functions.c.o\x1b[0m\n'}
+[15.095647] (-) TimerEvent: {}
+[15.197211] (-) TimerEvent: {}
+[15.298463] (-) TimerEvent: {}
+[15.308439] (aruco_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[15.400005] (-) TimerEvent: {}
+[15.501454] (-) TimerEvent: {}
+[15.521829] (aruco_interfaces) StdoutLine: {'line': b'[ 20%] Built target aruco_interfaces__rosidl_generator_c\n'}
+[15.587414] (aruco_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.601615] (-) TimerEvent: {}
+[15.702285] (-) TimerEvent: {}
+[15.803477] (-) TimerEvent: {}
+[15.905256] (-) TimerEvent: {}
+[16.007564] (-) TimerEvent: {}
+[16.055762] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[16.107761] (-) TimerEvent: {}
+[16.134081] (aruco_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/srv/robot_command__type_support.cpp.o\x1b[0m\n'}
+[16.207950] (-) TimerEvent: {}
+[16.244723] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[16.308127] (-) TimerEvent: {}
+[16.329139] (aruco_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/srv/detail/robot_command__type_support.cpp.o\x1b[0m\n'}
+[16.377549] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.408309] (-) TimerEvent: {}
+[16.492156] (aruco_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/srv/detail/dds_fastrtps/robot_command__type_support.cpp.o\x1b[0m\n'}
+[16.508733] (-) TimerEvent: {}
+[16.609430] (-) TimerEvent: {}
+[16.710192] (-) TimerEvent: {}
+[16.811098] (-) TimerEvent: {}
+[16.912626] (-) TimerEvent: {}
+[17.014094] (-) TimerEvent: {}
+[17.117009] (-) TimerEvent: {}
+[17.217993] (-) TimerEvent: {}
+[17.319275] (-) TimerEvent: {}
+[17.360225] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[17.419472] (-) TimerEvent: {}
+[17.461208] (aruco_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/srv/detail/robot_command__type_support.c.o\x1b[0m\n'}
+[17.519677] (-) TimerEvent: {}
+[17.613263] (aruco_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_location__type_support.cpp.o\x1b[0m\n'}
+[17.619860] (-) TimerEvent: {}
+[17.658760] (aruco_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_location__type_support.c.o\x1b[0m\n'}
+[17.720061] (-) TimerEvent: {}
+[17.815677] (aruco_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_location__type_support.cpp.o\x1b[0m\n'}
+[17.820295] (-) TimerEvent: {}
+[17.834941] (aruco_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.920479] (-) TimerEvent: {}
+[18.021395] (-) TimerEvent: {}
+[18.033807] (aruco_interfaces) StdoutLine: {'line': b'[ 43%] Built target aruco_interfaces__rosidl_typesupport_introspection_c\n'}
+[18.121588] (-) TimerEvent: {}
+[18.129599] (aruco_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_location__type_support.cpp.o\x1b[0m\n'}
+[18.221766] (-) TimerEvent: {}
+[18.323593] (-) TimerEvent: {}
+[18.425565] (-) TimerEvent: {}
+[18.527502] (-) TimerEvent: {}
+[18.629426] (-) TimerEvent: {}
+[18.731132] (-) TimerEvent: {}
+[18.747086] (aruco_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.831444] (-) TimerEvent: {}
+[18.932211] (-) TimerEvent: {}
+[19.033009] (-) TimerEvent: {}
+[19.117602] (aruco_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[19.133177] (-) TimerEvent: {}
+[19.233869] (-) TimerEvent: {}
+[19.325921] (aruco_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.334046] (-) TimerEvent: {}
+[19.364039] (aruco_interfaces) StdoutLine: {'line': b'[ 53%] Built target aruco_interfaces__rosidl_typesupport_cpp\n'}
+[19.434283] (-) TimerEvent: {}
+[19.536304] (-) TimerEvent: {}
+[19.626176] (aruco_interfaces) StdoutLine: {'line': b'[ 53%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[19.636534] (-) TimerEvent: {}
+[19.737288] (-) TimerEvent: {}
+[19.837938] (-) TimerEvent: {}
+[19.938778] (-) TimerEvent: {}
+[20.039433] (-) TimerEvent: {}
+[20.140174] (-) TimerEvent: {}
+[20.204436] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[20.240616] (-) TimerEvent: {}
+[20.277326] (aruco_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/srv/robot_command__type_support.cpp.o\x1b[0m\n'}
+[20.285501] (aruco_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_location__type_support.cpp.o\x1b[0m\n'}
+[20.295636] (aruco_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.340804] (-) TimerEvent: {}
+[20.442312] (aruco_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.442995] (-) TimerEvent: {}
+[20.543651] (-) TimerEvent: {}
+[20.638713] (aruco_interfaces) StdoutLine: {'line': b'[ 64%] Built target aruco_interfaces__rosidl_typesupport_c\n'}
+[20.643804] (-) TimerEvent: {}
+[20.674971] (aruco_interfaces) StdoutLine: {'line': b'[ 64%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[20.730266] (aruco_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.743963] (-) TimerEvent: {}
+[20.844641] (-) TimerEvent: {}
+[20.945281] (-) TimerEvent: {}
+[21.045899] (-) TimerEvent: {}
+[21.146569] (-) TimerEvent: {}
+[21.247349] (-) TimerEvent: {}
+[21.348087] (-) TimerEvent: {}
+[21.448844] (-) TimerEvent: {}
+[21.549493] (-) TimerEvent: {}
+[21.650221] (-) TimerEvent: {}
+[21.750890] (-) TimerEvent: {}
+[21.851570] (-) TimerEvent: {}
+[21.952213] (-) TimerEvent: {}
+[22.052813] (-) TimerEvent: {}
+[22.136359] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[22.153058] (-) TimerEvent: {}
+[22.237397] (aruco_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/srv/detail/robot_command__type_support_c.cpp.o\x1b[0m\n'}
+[22.238218] (aruco_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_location__type_support_c.cpp.o\x1b[0m\n'}
+[22.253266] (-) TimerEvent: {}
+[22.353972] (-) TimerEvent: {}
+[22.454701] (-) TimerEvent: {}
+[22.555449] (-) TimerEvent: {}
+[22.656161] (-) TimerEvent: {}
+[22.757060] (-) TimerEvent: {}
+[22.858687] (-) TimerEvent: {}
+[22.959429] (-) TimerEvent: {}
+[23.060148] (-) TimerEvent: {}
+[23.160922] (-) TimerEvent: {}
+[23.261567] (-) TimerEvent: {}
+[23.362492] (-) TimerEvent: {}
+[23.463474] (-) TimerEvent: {}
+[23.564131] (-) TimerEvent: {}
+[23.664865] (-) TimerEvent: {}
+[23.765567] (-) TimerEvent: {}
+[23.842551] (aruco_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.865721] (-) TimerEvent: {}
+[23.966354] (-) TimerEvent: {}
+[24.067088] (-) TimerEvent: {}
+[24.167779] (-) TimerEvent: {}
+[24.212481] (aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[24.265237] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces\x1b[0m\n'}
+[24.267978] (-) TimerEvent: {}
+[24.320303] (aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target aruco_interfaces\n'}
+[24.368255] (-) TimerEvent: {}
+[24.373866] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__py\x1b[0m\n'}
+[24.430801] (aruco_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.468467] (-) TimerEvent: {}
+[24.569372] (-) TimerEvent: {}
+[24.670057] (-) TimerEvent: {}
+[24.770712] (-) TimerEvent: {}
+[24.871367] (-) TimerEvent: {}
+[24.972024] (-) TimerEvent: {}
+[25.072754] (-) TimerEvent: {}
+[25.173395] (-) TimerEvent: {}
+[25.274084] (-) TimerEvent: {}
+[25.374730] (-) TimerEvent: {}
+[25.477682] (-) TimerEvent: {}
+[25.578423] (-) TimerEvent: {}
+[25.679004] (-) TimerEvent: {}
+[25.779590] (-) TimerEvent: {}
+[25.880242] (-) TimerEvent: {}
+[25.980911] (-) TimerEvent: {}
+[26.081595] (-) TimerEvent: {}
+[26.182278] (-) TimerEvent: {}
+[26.283003] (-) TimerEvent: {}
+[26.383693] (-) TimerEvent: {}
+[26.484374] (-) TimerEvent: {}
+[26.587797] (-) TimerEvent: {}
+[26.688537] (-) TimerEvent: {}
+[26.789234] (-) TimerEvent: {}
+[26.828883] (aruco_interfaces) StdoutLine: {'line': b'[ 76%] Built target aruco_interfaces__py\n'}
+[26.882478] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__python\x1b[0m\n'}
+[26.889371] (-) TimerEvent: {}
+[26.982357] (aruco_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_location_s.c.o\x1b[0m\n'}
+[26.983030] (aruco_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__python.dir/rosidl_generator_py/aruco_interfaces/srv/_robot_command_s.c.o\x1b[0m\n'}
+[26.989594] (-) TimerEvent: {}
+[27.090366] (-) TimerEvent: {}
+[27.191074] (-) TimerEvent: {}
+[27.291849] (-) TimerEvent: {}
+[27.392686] (-) TimerEvent: {}
+[27.418228] (aruco_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__python.so\x1b[0m\n'}
+[27.492867] (-) TimerEvent: {}
+[27.594634] (-) TimerEvent: {}
+[27.630492] (aruco_interfaces) StdoutLine: {'line': b'[ 84%] Built target aruco_interfaces__python\n'}
+[27.687660] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[27.688296] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[27.688923] (aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target aruco_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[27.694829] (-) TimerEvent: {}
+[27.789802] (aruco_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.795201] (-) TimerEvent: {}
+[27.805167] (aruco_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.807095] (aruco_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.895431] (-) TimerEvent: {}
+[27.997172] (-) TimerEvent: {}
+[28.098031] (-) TimerEvent: {}
+[28.200838] (-) TimerEvent: {}
+[28.214623] (aruco_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.220971] (aruco_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.227688] (aruco_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[28.301081] (-) TimerEvent: {}
+[28.401887] (-) TimerEvent: {}
+[28.434230] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext\n'}
+[28.441165] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[28.502104] (-) TimerEvent: {}
+[28.565173] (aruco_interfaces) StdoutLine: {'line': b'[100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.602278] (-) TimerEvent: {}
+[28.618149] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[28.702555] (-) TimerEvent: {}
+[28.804022] (-) TimerEvent: {}
+[28.904701] (-) TimerEvent: {}
+[28.998842] (aruco_interfaces) JobProgress: {'identifier': 'aruco_interfaces', 'progress': 'install'}
+[29.004973] (-) TimerEvent: {}
+[29.053187] (aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces'], 'cwd': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces', 'env': OrderedDict([('CAMERA_TYPE', 'astraplus'), ('HOSTNAME', 'jetson-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('ROBOT_TYPE', 'x3'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('RPLIDAR_TYPE', 'a1'), ('PWD', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy')]), 'shell': False}
+[29.098434] (aruco_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.099228] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces\n'}
+[29.099831] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces\n'}
+[29.100359] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv\n'}
+[29.101024] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail\n'}
+[29.101501] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__functions.c\n'}
+[29.101981] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__struct.h\n'}
+[29.102491] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.h\n'}
+[29.102952] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__functions.h\n'}
+[29.103358] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/robot_command.h\n'}
+[29.103818] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg\n'}
+[29.104256] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail\n'}
+[29.104698] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__struct.h\n'}
+[29.105117] (-) TimerEvent: {}
+[29.105531] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__functions.h\n'}
+[29.106460] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__functions.c\n'}
+[29.106915] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.h\n'}
+[29.107290] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/aruco_location.h\n'}
+[29.107681] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.108497] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh\n'}
+[29.109294] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv\n'}
+[29.110322] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so\n'}
+[29.112047] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""\n'}
+[29.112790] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces\n'}
+[29.113264] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv\n'}
+[29.113728] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail\n'}
+[29.114390] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h\n'}
+[29.114820] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg\n'}
+[29.115165] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail\n'}
+[29.115591] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_fastrtps_c.h\n'}
+[29.115956] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.116314] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[29.117243] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.117696] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces\n'}
+[29.118190] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv\n'}
+[29.118545] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail\n'}
+[29.118974] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/dds_fastrtps\n'}
+[29.119481] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.119916] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg\n'}
+[29.120243] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail\n'}
+[29.120628] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/dds_fastrtps\n'}
+[29.121067] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.121428] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.121877] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.123202] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.123759] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces\n'}
+[29.124237] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv\n'}
+[29.124589] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail\n'}
+[29.125108] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.c\n'}
+[29.125459] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_c.h\n'}
+[29.125953] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg\n'}
+[29.126354] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail\n'}
+[29.126768] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_c.h\n'}
+[29.127101] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.c\n'}
+[29.127523] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.128055] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[29.129812] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.130294] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so\n'}
+[29.131602] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[29.132014] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces\n'}
+[29.132461] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv\n'}
+[29.132927] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/robot_command.hpp\n'}
+[29.133332] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail\n'}
+[29.133715] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.hpp\n'}
+[29.134057] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__builder.hpp\n'}
+[29.134448] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__traits.hpp\n'}
+[29.134827] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__struct.hpp\n'}
+[29.135251] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg\n'}
+[29.135680] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail\n'}
+[29.136049] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__traits.hpp\n'}
+[29.136498] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__struct.hpp\n'}
+[29.137071] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.hpp\n'}
+[29.137545] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__builder.hpp\n'}
+[29.138030] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.138558] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/aruco_location.hpp\n'}
+[29.141593] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces\n'}
+[29.142315] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv\n'}
+[29.142757] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail\n'}
+[29.143119] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.143568] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/srv/detail/robot_command__type_support.cpp\n'}
+[29.143928] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg\n'}
+[29.144258] (aruco_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail\n'}
+[29.144581] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.144956] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/include/aruco_interfaces/msg/detail/aruco_location__type_support.cpp\n'}
+[29.145385] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[29.145729] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.146153] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so\n'}
+[29.147326] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[29.147787] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh\n'}
+[29.148244] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv\n'}
+[29.149173] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/__init__.py\n'}
+[29.205349] (-) TimerEvent: {}
+[29.305994] (-) TimerEvent: {}
+[29.335263] (aruco_interfaces) StdoutLine: {'line': b"Compiling '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/__init__.py'...\n"}
+[29.356232] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv\n'}
+[29.357023] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/_robot_command.py\n'}
+[29.357529] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/__init__.py\n'}
+[29.357966] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/srv/_robot_command_s.c\n'}
+[29.358699] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg\n'}
+[29.359212] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/__init__.py\n'}
+[29.359627] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/_aruco_location.py\n'}
+[29.360150] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/msg/_aruco_location_s.c\n'}
+[29.361463] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[29.363510] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[29.364249] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[29.366391] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[29.367134] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[29.369288] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[29.369873] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__python.so\n'}
+[29.371393] (aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/libaruco_interfaces__python.so" to ""\n'}
+[29.371993] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand.idl\n'}
+[29.372634] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoLocation.idl\n'}
+[29.373363] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand.srv\n'}
+[29.373990] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand_Request.msg\n'}
+[29.374754] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/srv/RobotCommand_Response.msg\n'}
+[29.375338] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoLocation.msg\n'}
+[29.376108] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces\n'}
+[29.377085] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces\n'}
+[29.377797] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh\n'}
+[29.378497] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv\n'}
+[29.379150] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh\n'}
+[29.379792] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv\n'}
+[29.380359] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash\n'}
+[29.381064] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh\n'}
+[29.381723] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh\n'}
+[29.382354] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv\n'}
+[29.382970] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv\n'}
+[29.383857] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces\n'}
+[29.384808] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cExport.cmake\n'}
+[29.385535] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.386450] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.387218] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.388104] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[29.388874] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.390025] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_generator_cppExport.cmake\n'}
+[29.390954] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.391772] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.392879] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[29.393594] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.394285] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[29.394957] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.395664] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.396322] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.397147] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.397783] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.398470] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.399162] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake\n'}
+[29.399781] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake\n'}
+[29.400447] (aruco_interfaces) StdoutLine: {'line': b'-- Installing: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml\n'}
+[29.406355] (-) TimerEvent: {}
+[29.408386] (aruco_interfaces) CommandEnded: {'returncode': 0}
+[29.506685] (-) TimerEvent: {}
+[29.607413] (-) TimerEvent: {}
+[29.708321] (-) TimerEvent: {}
+[29.809266] (-) TimerEvent: {}
+[29.875445] (aruco_interfaces) JobEnded: {'identifier': 'aruco_interfaces', 'rc': 0}
+[29.877728] (aruco_tracker) JobStarted: {'identifier': 'aruco_tracker'}
+[29.909411] (-) TimerEvent: {}
+[30.010136] (-) TimerEvent: {}
+[30.111004] (-) TimerEvent: {}
+[30.211657] (-) TimerEvent: {}
+[30.312292] (-) TimerEvent: {}
+[30.412948] (-) TimerEvent: {}
+[30.513533] (-) TimerEvent: {}
+[30.614165] (-) TimerEvent: {}
+[30.714736] (-) TimerEvent: {}
+[30.815320] (-) TimerEvent: {}
+[30.915957] (-) TimerEvent: {}
+[31.016634] (-) TimerEvent: {}
+[31.117285] (-) TimerEvent: {}
+[31.218224] (-) TimerEvent: {}
+[31.318931] (-) TimerEvent: {}
+[31.419722] (-) TimerEvent: {}
+[31.520358] (-) TimerEvent: {}
+[31.621096] (-) TimerEvent: {}
+[31.721724] (-) TimerEvent: {}
+[31.822313] (-) TimerEvent: {}
+[31.922947] (-) TimerEvent: {}
+[32.023585] (-) TimerEvent: {}
+[32.124218] (-) TimerEvent: {}
+[32.224857] (-) TimerEvent: {}
+[32.325502] (-) TimerEvent: {}
+[32.426090] (-) TimerEvent: {}
+[32.526757] (-) TimerEvent: {}
+[32.627339] (-) TimerEvent: {}
+[32.727929] (-) TimerEvent: {}
+[32.828567] (-) TimerEvent: {}
+[32.929233] (-) TimerEvent: {}
+[33.029850] (-) TimerEvent: {}
+[33.130432] (-) TimerEvent: {}
+[33.231144] (-) TimerEvent: {}
+[33.331974] (-) TimerEvent: {}
+[33.433157] (-) TimerEvent: {}
+[33.442613] (aruco_tracker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_tracker', 'build', '--build-base', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build', 'install', '--record', '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log', '--install-scripts', '$base/lib/aruco_tracker', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_tracker', 'env': {'CAMERA_TYPE': 'astraplus', 'HOSTNAME': 'jetson-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', '_colcon_cd_root': '/root/yahboomcar_ros2_ws/yahboomcar_ws', 'ROBOT_TYPE': 'x3', 'COLCON_PREFIX_PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ORB_SLAM2_ROOT_DIR': '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master', 'DISPLAY': ':0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '3', 'AMENT_PREFIX_PATH': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy', 'RPLIDAR_TYPE': 'a1', 'PWD': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker', 'PYTHONPATH': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/prefix_override:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs'}, 'shell': False}
+[33.533399] (-) TimerEvent: {}
+[33.634046] (-) TimerEvent: {}
+[33.734692] (-) TimerEvent: {}
+[33.835305] (-) TimerEvent: {}
+[33.935968] (-) TimerEvent: {}
+[34.036565] (-) TimerEvent: {}
+[34.137311] (-) TimerEvent: {}
+[34.237935] (-) TimerEvent: {}
+[34.338553] (-) TimerEvent: {}
+[34.439233] (-) TimerEvent: {}
+[34.539942] (-) TimerEvent: {}
+[34.640772] (-) TimerEvent: {}
+[34.659160] (aruco_tracker) StdoutLine: {'line': b'running egg_info\n'}
+[34.661385] (aruco_tracker) StdoutLine: {'line': b'creating ../../build/aruco_tracker/aruco_tracker.egg-info\n'}
+[34.662281] (aruco_tracker) StdoutLine: {'line': b'writing ../../build/aruco_tracker/aruco_tracker.egg-info/PKG-INFO\n'}
+[34.663138] (aruco_tracker) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_tracker/aruco_tracker.egg-info/dependency_links.txt\n'}
+[34.663699] (aruco_tracker) StdoutLine: {'line': b'writing entry points to ../../build/aruco_tracker/aruco_tracker.egg-info/entry_points.txt\n'}
+[34.664224] (aruco_tracker) StdoutLine: {'line': b'writing requirements to ../../build/aruco_tracker/aruco_tracker.egg-info/requires.txt\n'}
+[34.664754] (aruco_tracker) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_tracker/aruco_tracker.egg-info/top_level.txt\n'}
+[34.670658] (aruco_tracker) StdoutLine: {'line': b"writing manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'\n"}
+[34.740880] (-) TimerEvent: {}
+[34.839122] (aruco_tracker) StdoutLine: {'line': b"reading manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'\n"}
+[34.841004] (-) TimerEvent: {}
+[34.843324] (aruco_tracker) StdoutLine: {'line': b"writing manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'\n"}
+[34.844030] (aruco_tracker) StdoutLine: {'line': b'running build\n'}
+[34.844403] (aruco_tracker) StdoutLine: {'line': b'running build_py\n'}
+[34.845041] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build\n'}
+[34.845473] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib\n'}
+[34.845876] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.846278] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.846661] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/cam_pub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.847019] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/control_server.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.847446] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/aruco_publisher.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.847910] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/core_node.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.848347] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/aruco_tracker.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.848870] (aruco_tracker) StdoutLine: {'line': b'copying aruco_tracker/cam_sub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker\n'}
+[34.849343] (aruco_tracker) StdoutLine: {'line': b'running install\n'}
+[34.853524] (aruco_tracker) StdoutLine: {'line': b'running install_lib\n'}
+[34.857624] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.858231] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.858728] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/cam_pub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.859196] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/control_server.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.859632] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/aruco_publisher.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.860047] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/core_node.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.860462] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/aruco_tracker.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.860964] (aruco_tracker) StdoutLine: {'line': b'copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/cam_sub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker\n'}
+[34.863951] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/__init__.py to __init__.cpython-38.pyc\n'}
+[34.868891] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/cam_pub.py to cam_pub.cpython-38.pyc\n'}
+[34.871125] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/control_server.py to control_server.cpython-38.pyc\n'}
+[34.872906] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/aruco_publisher.py to aruco_publisher.cpython-38.pyc\n'}
+[34.876446] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/core_node.py to core_node.cpython-38.pyc\n'}
+[34.878284] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/aruco_tracker.py to aruco_tracker.cpython-38.pyc\n'}
+[34.881617] (aruco_tracker) StdoutLine: {'line': b'byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/cam_sub.py to cam_sub.cpython-38.pyc\n'}
+[34.883516] (aruco_tracker) StdoutLine: {'line': b'running install_data\n'}
+[34.884132] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index\n'}
+[34.884769] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index/resource_index\n'}
+[34.885306] (aruco_tracker) StdoutLine: {'line': b'creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index/resource_index/packages\n'}
+[34.885737] (aruco_tracker) StdoutLine: {'line': b'copying resource/aruco_tracker -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index/resource_index/packages\n'}
+[34.886329] (aruco_tracker) StdoutLine: {'line': b'copying package.xml -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/aruco_tracker\n'}
+[34.886673] (aruco_tracker) StdoutLine: {'line': b'copying launch/aruco_tracker.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/aruco_tracker\n'}
+[34.887022] (aruco_tracker) StdoutLine: {'line': b'copying launch/simple.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/aruco_tracker\n'}
+[34.887372] (aruco_tracker) StdoutLine: {'line': b'running install_egg_info\n'}
+[34.893734] (aruco_tracker) StdoutLine: {'line': b'Copying ../../build/aruco_tracker/aruco_tracker.egg-info to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker-0.0.0-py3.8.egg-info\n'}
+[34.897384] (aruco_tracker) StdoutLine: {'line': b'running install_scripts\n'}
+[34.941207] (-) TimerEvent: {}
+[34.979947] (aruco_tracker) StdoutLine: {'line': b'Installing aruco_publisher script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker\n'}
+[34.980606] (aruco_tracker) StdoutLine: {'line': b'Installing control_server script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker\n'}
+[34.981243] (aruco_tracker) StdoutLine: {'line': b'Installing core_node script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker\n'}
+[34.981791] (aruco_tracker) StdoutLine: {'line': b'Installing webcam_pub script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker\n'}
+[34.982183] (aruco_tracker) StdoutLine: {'line': b'Installing webcam_sub script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker\n'}
+[34.983230] (aruco_tracker) StdoutLine: {'line': b"writing list of installed files to '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log'\n"}
+[35.041432] (-) TimerEvent: {}
+[35.084802] (aruco_tracker) CommandEnded: {'returncode': 0}
+[35.108688] (aruco_tracker) JobEnded: {'identifier': 'aruco_tracker', 'rc': 0}
+[35.111358] (-) EventReactorShutdown: {}

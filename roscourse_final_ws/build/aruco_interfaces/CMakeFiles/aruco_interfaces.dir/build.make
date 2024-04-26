@@ -43,20 +43,20 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
+CMAKE_SOURCE_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
+CMAKE_BINARY_DIR = /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces
 
 # Utility rule file for aruco_interfaces.
 
 # Include the progress variables for this target.
 include CMakeFiles/aruco_interfaces.dir/progress.make
 
-CMakeFiles/aruco_interfaces: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces/srv/RobotCommand.srv
+CMakeFiles/aruco_interfaces: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces/srv/RobotCommand.srv
 CMakeFiles/aruco_interfaces: rosidl_cmake/srv/RobotCommand_Request.msg
 CMakeFiles/aruco_interfaces: rosidl_cmake/srv/RobotCommand_Response.msg
-CMakeFiles/aruco_interfaces: /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces/msg/ArucoLocation.msg
+CMakeFiles/aruco_interfaces: /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces/msg/ArucoLocation.msg
 CMakeFiles/aruco_interfaces: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/aruco_interfaces: /opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/aruco_interfaces: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -103,6 +103,6 @@ CMakeFiles/aruco_interfaces.dir/clean:
 .PHONY : CMakeFiles/aruco_interfaces.dir/clean
 
 CMakeFiles/aruco_interfaces.dir/depend:
-	cd /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/CMakeFiles/aruco_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_interfaces.dir/depend
 

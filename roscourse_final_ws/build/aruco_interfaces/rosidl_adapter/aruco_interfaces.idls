@@ -1,2 +1,2 @@
-/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/RobotCommand.idl
-/home/scott/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoLocation.idl
+/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:srv/RobotCommand.idl
+/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoLocation.idl

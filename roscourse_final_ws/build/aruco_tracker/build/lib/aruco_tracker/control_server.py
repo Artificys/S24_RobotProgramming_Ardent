@@ -1,5 +1,6 @@
 from aruco_interfaces.msg import ArucoLocation
 from aruco_interfaces.srv import RobotCommand
+from geometry_msgs.msg import Twist
 
 import rclpy
 from rclpy.node import Node
@@ -23,6 +24,10 @@ class ControlService(Node):
         self.aruco_id = 0
         self.aruco_found = False
         
+        # cmd_vel publisher
+        
+        self.pub = self.create_publisher(Twist,'cmd_vel',1)
+        
     def aruco_callback(self, msg):
 
         self.aruco_pose_x = msg.aruco_pose.position.z
@@ -44,6 +49,15 @@ class ControlService(Node):
         error_pose_x = target_pose_x - self.aruco_pose_x
         error_pose_y = target_pose_y - self.aruco_pose_y
         error_pose_theta = target_pose_theta - self.aruco_pose_theta
+        
+        twist = Twist()
+        
+        twist.linear.x = error_pose_x
+        twist.linear.y = error_pose_y
+        twist.angular.z = error_pose_theta
+        
+        self.pub.publish(twist)
+        
         
         self.get_logger().info(f'Measured Error: x:{error_pose_x}, y:{error_pose_y}, theta:{error_pose_theta}')		
     

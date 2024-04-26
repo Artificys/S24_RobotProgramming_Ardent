@@ -7,5 +7,6 @@
 #include "aruco_interfaces/msg/detail/aruco_location__struct.hpp"
 #include "aruco_interfaces/msg/detail/aruco_location__builder.hpp"
 #include "aruco_interfaces/msg/detail/aruco_location__traits.hpp"
+#include "aruco_interfaces/msg/detail/aruco_location__type_support.hpp"
 
 #endif  // ARUCO_INTERFACES__MSG__ARUCO_LOCATION_HPP_

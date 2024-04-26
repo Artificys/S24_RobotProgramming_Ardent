@@ -1,0 +1,37 @@
+[3.752s] Invoking command in '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/control': PYTHONPATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/prefix_override:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build install --record /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/install.log --install-scripts $base/lib/core --single-version-externally-managed install_data
+[5.043s] running egg_info
+[5.045s] creating ../../build/control/control.egg-info
+[5.046s] writing ../../build/control/control.egg-info/PKG-INFO
+[5.046s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[5.047s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[5.048s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[5.048s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[5.054s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[5.221s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[5.225s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[5.226s] running build
+[5.226s] running build_py
+[5.227s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build
+[5.227s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib
+[5.228s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib/control
+[5.228s] copying control/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib/control
+[5.228s] running install
+[5.232s] running install_lib
+[5.236s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control
+[5.237s] copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build/lib/control/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control
+[5.239s] byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control/__init__.py to __init__.cpython-38.pyc
+[5.245s] running install_data
+[5.246s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share
+[5.247s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index
+[5.247s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index/resource_index
+[5.248s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index/resource_index/packages
+[5.248s] copying resource/control -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/ament_index/resource_index/packages
+[5.248s] creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control
+[5.249s] copying package.xml -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control
+[5.249s] copying launch/aruco_tracker.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control
+[5.249s] copying launch/simple.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/share/control
+[5.250s] running install_egg_info
+[5.256s] Copying ../../build/control/control.egg-info to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info
+[5.260s] running install_scripts
+[5.339s] writing list of installed files to '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/install.log'
+[5.443s] Invoked command in '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/src/control' returned '0': PYTHONPATH=/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/prefix_override:/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/build install --record /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/control/install.log --install-scripts $base/lib/core --single-version-externally-managed install_data

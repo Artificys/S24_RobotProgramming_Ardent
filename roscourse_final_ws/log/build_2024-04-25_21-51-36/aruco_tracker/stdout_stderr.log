@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/aruco_tracker/aruco_tracker.egg-info
+writing ../../build/aruco_tracker/aruco_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_tracker/aruco_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco_tracker/aruco_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_tracker/aruco_tracker.egg-info/requires.txt
+writing top-level names to ../../build/aruco_tracker/aruco_tracker.egg-info/top_level.txt
+writing manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+reading manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_tracker/aruco_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/cam_pub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/control_server.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/aruco_publisher.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/core_node.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/aruco_tracker.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+copying aruco_tracker/cam_sub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker
+running install
+running install_lib
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/__init__.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/cam_pub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/control_server.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/aruco_publisher.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/core_node.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/aruco_tracker.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+copying /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/build/lib/aruco_tracker/cam_sub.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/cam_pub.py to cam_pub.cpython-38.pyc
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/control_server.py to control_server.cpython-38.pyc
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/aruco_publisher.py to aruco_publisher.cpython-38.pyc
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/core_node.py to core_node.cpython-38.pyc
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/aruco_tracker.py to aruco_tracker.cpython-38.pyc
+byte-compiling /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker/cam_sub.py to cam_sub.cpython-38.pyc
+running install_data
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index/resource_index
+creating /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index/resource_index/packages
+copying resource/aruco_tracker -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/aruco_tracker
+copying launch/aruco_tracker.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/aruco_tracker
+copying launch/simple.launch.py -> /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/share/aruco_tracker
+running install_egg_info
+Copying ../../build/aruco_tracker/aruco_tracker.egg-info to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/python3.8/site-packages/aruco_tracker-0.0.0-py3.8.egg-info
+running install_scripts
+Installing aruco_publisher script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+Installing control_server script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+Installing core_node script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+Installing webcam_pub script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+Installing webcam_sub script to /root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/install/aruco_tracker/lib/aruco_tracker
+writing list of installed files to '/root/codes/S24_RobotProgramming_Ardent/roscourse_final_ws/build/aruco_tracker/install.log'
